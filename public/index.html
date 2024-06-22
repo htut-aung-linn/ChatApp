@@ -48,7 +48,7 @@
         function createChat(){
             const name = namein.value.trim();
             if(name!==''){
-                ws = new WebSocket('ws://chatapp-2ujx.onrender.com:10000');   
+                ws = new WebSocket('ws://chatapp-2ujx.onrender.com');   
 
                 ws.onopen = () => {
                     console.log('Connected to the server');
