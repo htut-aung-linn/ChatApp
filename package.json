@@ -1,6 +1,15 @@
 {
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "project description",
+  "main": "myServer.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node myServer.js"
+  },
   "dependencies": {
     "express": "^4.19.2",
     "ws": "^8.17.0"
   }
 }
+
